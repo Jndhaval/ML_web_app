@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 # loading the saved model
-loaded_model = pickle.load(open('streamlit_rakuten/D:/Dhaval/Programming/Anaconda/Spyder/trained_model.sav', 'rb'))
+loaded_model = pickle.load(open('Spyder/trained_model.sav', 'rb'))
 
 
 # creating a function for prediction
